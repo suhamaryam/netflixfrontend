@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:  #000000;
+}
+
+.active {
+  background-color: #e60000;
+}
+.main-logo a, 
+
+.main-logo img {width:30%;}
+body{
+background-color:black;
+}
+h1,h3,h2{
+color:white;
+text-align: center
+padding:10px;
+}
+.search{
+margin-top: 10px;
+margin-bottom: 30px;
+font-size:20px;
+
+}
+.search-container button:hover {
+  background-color: #e60000;
+}
+.search-container button {
+    float: none;
+    display: block;
+    text-align: center;
+	 width: 43%;
+    margin: 0;
+    padding: 30px;
+  }
+  .search-container button {
+  float: right;
+  text-align:center;
+  padding: 6px;
+  margin-top: 8px;
+  color:white;
+  margin-right: 16px;
+
+  font-color:white;
+  border: none;
+  cursor: pointer;
+  background: #e60000;
+}
+.search-container {
+  float: center;
+  text-align:center;
+  font-size:20px;
+  padding: 10px;
+  font-size: 30px;
+  tabindex="0"
+  
+}
+.border1,button{
+align:center;
+}
+.border1 { 
+  border:#bd6f2f solid 3px;
+  padding:4px 6px 2px 6px;
+  border-color:#666666 
+}
+
+.border2 {
+   margin: 0;
+  position: absolute;
+  top: 275%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img{
+background-repeat: no-repeat;
+}
+.para{
+background-color: #595959;
+}
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #404040;
+  color: white;
+  padding: 14px 28px;
+  font-size: 26px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.block:hover {
+  background-color: #404040;
+
+}
+
+</style>
+</head>
+<body>
+<ul>
+  <li class="main-logo"><img src="netflix.png"></li>
+  <li style="float:right"><a class="active" href="#about">Sign in</a></li>
+</ul>
+<div class="container">
+  <img src="background.jpg"  style="background-repeat:no-repeat];width:100%;">
+  <div class="centered"><h1><b>Unlimited movies, TV</b></h1>
+<h1><b>shows and more.</b></h1>
+<h2><b>Watch anywhere. Cancel anytime.</b></h2>
+<div class="search">
+ <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Email Address" name="search"><button type="submit">TRY IT NOW ></button>
+    </form>
+  </div>
+  </div>
+  <h3><b>Ready to watch? Enter your email to create or restart your membership.</b></h3>
+</div>
+</div>
+
+<div id="border1">
+ <div style="border:#bd6f2f solid 3px;padding:4px 6px 2px 6px;border-color:#666666">
+   <img src="netflix-apple-tv.png" alt="Image" height="200" width="350" align="right">
+   <span style="text-align:ceter-left;">
+  <h1>Enjoy on your TV.</h1>
+  <h3>Watch on smart TVs, PlayStation, Xbox,</h3>
+  <h3>Chromecast, Apple TV, Blu-ray players and</h3>
+  <h3>more.</h3>
+  </span>
+  
+ </div>
+</div>
+
+<div id="border1">
+ <div style="border:#bd6f2f solid 3px;padding:10px 10px 10px 10px; border-spacing: 35px;border-color:#666666">
+ <img src="mobile-0819.jpg" alt="Image" height="200" width="350" align="left">
+  <span style="text-align:right;">
+  <h1>Download your shows</h1>
+  <h1>to watch offline.</h1>
+  <h3>Save your favourites easily and always have</h3>
+  <h3>something to watch</h3>
+  </span>
+    </div>
+</div>
+
+<div id="border1">
+ <div style="border:#bd6f2f solid 3px;padding:4px 6px 2px 6px;border-color:#666666">
+ <img src="device-pile-in.png" alt="Image" height="150" width="350" align="right">
+ <span style="text-align:center-left;">
+  <h1 >Watch everywhere.</h1>
+  <h3 >Stream unlimited movies and TV shows on</h3>
+  <h3 >your phone, tablet, laptop, and TV.</h3>
+  </span>
+  </div>
+</div>
+
+ <div class="border2">
+  <h1 align="center">Frequently Asked Questions</h1>
+  <span style="align:center">
+  <button class="block" type="submit" align="left">What is Netflix ?&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	&nbsp &nbsp &nbsp &nbsp &nbsp	+ </button>
+  <br>
+  <br>
+  
+  <button class="block" type="submit" align= "center" >How much does Netflix cost?&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp + </button>
+  <br>
+  <br>
+  <button class="block" type="submit" align="center">Where can I watch?	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp		&nbsp	+ </button>
+  <br>
+  <br>
+  <button class="block" type="submit" align="center">How can I cancel?&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	&nbsp			+ </button>
+  <br>
+  <br>
+  <button class="block" type="submit" align="center">What can I watch on Netflix ?  &nbsp &nbsp &nbsp &nbsp &nbsp	&nbsp	+ </button>
+  <br>
+  </span>
+ </div>
+ 
+  
+ 
+
+
+</body>
+</html>
